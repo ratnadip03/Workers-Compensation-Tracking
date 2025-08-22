@@ -1,0 +1,15 @@
+[package]
+name = "Workers-Compensation-Tracking"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x3a8c1f2ea4c97140e5d659ba32d498129cfca3784df776df2648cff0c1cf7088"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
